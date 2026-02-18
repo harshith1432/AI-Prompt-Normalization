@@ -1,0 +1,17 @@
+Q: How do I reset my password?
+A: Use the 'Forgot password' link on the login page or contact admin to reset.
+
+Q: How can I export attendance reports?
+A: Go to the Reports page and choose Export → CSV to download consolidated attendance.
+
+Q: How do I mark leave for a student?
+A: Submit a leave request via the portal with supporting documents; teacher approval may be required.
+
+Q: What if the camera missed my entry?
+A: Contact the attendance office with time and supporting evidence; records can be adjusted.
+
+Q: How often is attendance consolidated?
+A: Attendance is consolidated at the end of each semester.
+
+Q: Who do I contact for system setup?
+A: Reach out to the IT team for installation and camera setup instructions.

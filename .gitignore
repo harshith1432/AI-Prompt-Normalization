@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Project specific
+data/user_learned.txt
+data/user_counts.json

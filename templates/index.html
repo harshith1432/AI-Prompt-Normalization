@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prompt Doctor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="side left">
+      <h3>Pipeline</h3>
+      <label><input type="checkbox" id="spellToggle" checked> Spell Correction</label>
+      <label><input type="checkbox" id="retrieveToggle" checked> Retrieval</label>
+      <button id="clearMemory">Clear Memory (UI)</button>
+      <div id="stats">
+        <strong>Stats</strong>
+        <div id="timings">No runs yet</div>
+      </div>
+    </div>
+
+    <div class="chat">
+      <div class="log" id="log"></div>
+      <div class="bar">
+        <input id="inp" placeholder="Type a message" />
+        <button id="send">Send</button>
+      </div>
+    </div>
+
+    <div class="side right">
+      <h3>Panels</h3>
+      <div class="panel">
+        <h4>Normalize</h4>
+        <div id="panel-normalize">-</div>
+      </div>
+      <div class="panel">
+        <h4>Sentence Formation</h4>
+        <div id="view-sentence">-</div>
+      </div>
+      <div class="panel">
+        <h4>Spell</h4>
+        <div id="panel-spell">-</div>
+      </div>
+      <div class="panel">
+        <h4>Intent</h4>
+        <div id="panel-intent">-</div>
+      </div>
+      <div class="panel">
+        <h4>Retrieval</h4>
+        <div id="panel-retrieval">-</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
